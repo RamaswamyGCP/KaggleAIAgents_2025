@@ -1,0 +1,43 @@
+[
+  {
+    "issue_number": 1,
+    "repo": "RamaswamyGCP/KaggleAgentTestRepo",
+    "title": "Application crashes when clicking submit button",
+    "author": "user123",
+    "state": "open",
+    "description": "When I click the submit button on the form, the entire application crashes with no error message. This happens consistently on both Chrome and Firefox. Steps to reproduce: 1. Open the form, 2. Fill in fields, 3. Click submit. Expected: Form submits. Actual: App crashes.",
+    "labels": [],
+    "comments": 0
+  },
+  {
+    "issue_number": 2,
+    "repo": "RamaswamyGCP/KaggleAgentTestRepo",
+    "title": "Add dark mode support",
+    "author": "user456",
+    "state": "open",
+    "description": "It would be great to have a dark mode option for the UI. Many users prefer dark mode especially for extended usage. This is a nice-to-have feature that would improve user experience.",
+    "labels": [],
+    "comments": 3
+  },
+  {
+    "issue_number": 3,
+    "repo": "RamaswamyGCP/KaggleAgentTestRepo",
+    "title": "SECURITY: API keys exposed in source code",
+    "author": "security_researcher",
+    "state": "open",
+    "description": "CRITICAL SECURITY ISSUE: Found hardcoded API keys and database credentials in src/config.py. This is a serious security vulnerability that needs immediate attention. Keys found: API_KEY and DATABASE_URL with credentials in plain text.",
+    "labels": [],
+    "comments": 0
+  },
+  {
+    "issue_number": 4,
+    "repo": "RamaswamyGCP/KaggleAgentTestRepo",
+    "title": "Documentation is outdated",
+    "author": "contributor789",
+    "state": "open",
+    "description": "The README.md and API documentation haven't been updated in months. Several endpoints mentioned in docs don't exist anymore, and new features aren't documented at all. This makes it hard for new contributors to get started.",
+    "labels": [],
+    "comments": 1
+  }
+]
+

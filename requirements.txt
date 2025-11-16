@@ -1,0 +1,30 @@
+# GitHub Enterprise AI Agents - Python Dependencies
+# For Google Agent Development Kit (ADK) and supporting libraries
+
+# Core ADK dependencies
+google-genai>=1.0.0
+google-adk>=0.1.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Web frameworks (for future A2A services)
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+starlette>=0.36.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Utilities
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Development
+black>=24.0.0
+flake8>=7.0.0
+mypy>=1.8.0

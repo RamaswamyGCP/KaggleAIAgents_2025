@@ -1,0 +1,35 @@
+{
+  "pr_number": 1,
+  "repo": "RamaswamyGCP/KaggleAgentTestRepo",
+  "title": "Add user authentication feature",
+  "author": "developer123",
+  "state": "open",
+  "files_changed": [
+    {
+      "filename": "src/auth.py",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "changes": [
+        "def authenticate_user(username, password):",
+        "    # SECURITY ISSUE: SQL Injection vulnerability",
+        "    query = f\"SELECT * FROM users WHERE username = '{username}'\"",
+        "    result = db.execute(query)",
+        "    return result"
+      ]
+    },
+    {
+      "filename": "src/config.py",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": [
+        "# SECURITY ISSUE: Hardcoded secret",
+        "API_KEY = 'sk_live_1234567890abcdef'",
+        "DATABASE_URL = 'postgresql://admin:password@localhost/db'"
+      ]
+    }
+  ],
+  "description": "This PR adds user authentication using username/password. Connects to database for user verification."
+}
+
